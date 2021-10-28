@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		0679B7572728972200048B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B7562728972200048B4B /* AppDelegate.swift */; };
 		0679B7592728972200048B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B7582728972200048B4B /* SceneDelegate.swift */; };
-		0679B75B2728972200048B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B75A2728972200048B4B /* ViewController.swift */; };
 		0679B75E2728972200048B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0679B75C2728972200048B4B /* Main.storyboard */; };
 		0679B7602728972400048B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0679B75F2728972400048B4B /* Assets.xcassets */; };
 		0679B7632728972400048B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0679B7612728972400048B4B /* LaunchScreen.storyboard */; };
+		0679B77027297A3600048B4B /* LogInScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B76F27297A3600048B4B /* LogInScreenController.swift */; };
+		0679B77227297A5800048B4B /* ForgotNameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B77127297A5800048B4B /* ForgotNameController.swift */; };
+		0679B77427297A7100048B4B /* ForgotPasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B77327297A7100048B4B /* ForgotPasswordController.swift */; };
+		0679B77627297B0000048B4B /* LogAndPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B77527297B0000048B4B /* LogAndPass.swift */; };
+		0679B77A2729A9A300048B4B /* WelcomeScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B7792729A9A300048B4B /* WelcomeScreenController.swift */; };
+		0679B77C2729A9CD00048B4B /* InformationScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B77B2729A9CD00048B4B /* InformationScreenController.swift */; };
+		0679B7802729E35E00048B4B /* MenuTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0679B77F2729E35E00048B4B /* MenuTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0679B7532728972200048B4B /* LogPassApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogPassApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0679B7562728972200048B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0679B7582728972200048B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0679B75A2728972200048B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0679B75D2728972200048B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0679B75F2728972400048B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0679B7622728972400048B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0679B7642728972400048B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0679B76F27297A3600048B4B /* LogInScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInScreenController.swift; sourceTree = "<group>"; };
+		0679B77127297A5800048B4B /* ForgotNameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotNameController.swift; sourceTree = "<group>"; };
+		0679B77327297A7100048B4B /* ForgotPasswordController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordController.swift; sourceTree = "<group>"; };
+		0679B77527297B0000048B4B /* LogAndPass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogAndPass.swift; sourceTree = "<group>"; };
+		0679B7792729A9A300048B4B /* WelcomeScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreenController.swift; sourceTree = "<group>"; };
+		0679B77B2729A9CD00048B4B /* InformationScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationScreenController.swift; sourceTree = "<group>"; };
+		0679B77F2729E35E00048B4B /* MenuTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,53 @@
 		0679B7552728972200048B4B /* LogPassApp */ = {
 			isa = PBXGroup;
 			children = (
-				0679B7562728972200048B4B /* AppDelegate.swift */,
-				0679B7582728972200048B4B /* SceneDelegate.swift */,
-				0679B75A2728972200048B4B /* ViewController.swift */,
-				0679B75C2728972200048B4B /* Main.storyboard */,
-				0679B75F2728972400048B4B /* Assets.xcassets */,
-				0679B7612728972400048B4B /* LaunchScreen.storyboard */,
-				0679B7642728972400048B4B /* Info.plist */,
+				0679B76D2728974E00048B4B /* Controller */,
+				0679B76C2728974700048B4B /* Model */,
+				0679B76A2728973300048B4B /* SupportingFiles */,
+				0679B76B2728974000048B4B /* View */,
 			);
 			path = LogPassApp;
+			sourceTree = "<group>";
+		};
+		0679B76A2728973300048B4B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0679B7562728972200048B4B /* AppDelegate.swift */,
+				0679B7582728972200048B4B /* SceneDelegate.swift */,
+				0679B75F2728972400048B4B /* Assets.xcassets */,
+				0679B7642728972400048B4B /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0679B76B2728974000048B4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0679B75C2728972200048B4B /* Main.storyboard */,
+				0679B7612728972400048B4B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0679B76C2728974700048B4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0679B77527297B0000048B4B /* LogAndPass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0679B76D2728974E00048B4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0679B76F27297A3600048B4B /* LogInScreenController.swift */,
+				0679B77127297A5800048B4B /* ForgotNameController.swift */,
+				0679B77327297A7100048B4B /* ForgotPasswordController.swift */,
+				0679B7792729A9A300048B4B /* WelcomeScreenController.swift */,
+				0679B77B2729A9CD00048B4B /* InformationScreenController.swift */,
+				0679B77F2729E35E00048B4B /* MenuTabBar.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0679B75B2728972200048B4B /* ViewController.swift in Sources */,
+				0679B77A2729A9A300048B4B /* WelcomeScreenController.swift in Sources */,
+				0679B77427297A7100048B4B /* ForgotPasswordController.swift in Sources */,
+				0679B77C2729A9CD00048B4B /* InformationScreenController.swift in Sources */,
+				0679B7802729E35E00048B4B /* MenuTabBar.swift in Sources */,
 				0679B7572728972200048B4B /* AppDelegate.swift in Sources */,
 				0679B7592728972200048B4B /* SceneDelegate.swift in Sources */,
+				0679B77027297A3600048B4B /* LogInScreenController.swift in Sources */,
+				0679B77227297A5800048B4B /* ForgotNameController.swift in Sources */,
+				0679B77627297B0000048B4B /* LogAndPass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +347,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Z5KNL8KD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LogPassApp/Info.plist;
+				INFOPLIST_FILE = LogPassApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -319,7 +375,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = R8Z5KNL8KD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LogPassApp/Info.plist;
+				INFOPLIST_FILE = LogPassApp/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
